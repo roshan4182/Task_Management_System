@@ -34,9 +34,9 @@ const Table = ({ tasks }) => {
     setSelected(id);
     setOpenDialog(true);
   };
-  const editTaskHandler = (el) => {
-    setSelected(el);
-    setOpenDialog(true);
+  const editTaskHandler = (task) => {
+    setSelected(task);
+    setOpenEdit(true);
   }
   const deleteHandler = async() => {
     try {
@@ -135,7 +135,7 @@ const Table = ({ tasks }) => {
           className='text-blue-600 hover:text-blue-500 sm:px-0 text-sm md:text-base'
           label='Edit'
           type='button'
-          onClick={() => editTaskHandler(d._id)}
+          onClick={() => editTaskHandler(task)}
         />
 
         <Button
