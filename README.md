@@ -1,5 +1,6 @@
 # Fullstack Task Manager (MERN)
-<img width="1440" alt="Screenshot 2024-10-22 at 1 55 09 PM" src="https://github.com/user-attachments/assets/4f7b2bcf-6cc3-4b23-91e2-74cc2708a5f0">
+![Screenshot 2024-10-22 at 1 55 09 PM](https://github.com/user-attachments/assets/8a7a79e2-6e5f-451e-9944-bf97fd28d28e)
+![Screenshot 2024-10-22 at 1 55 45 PM](https://github.com/user-attachments/assets/bfe4c3ac-18c5-4fe3-90a6-68767eb2917d)
 
 
 ## Overview
