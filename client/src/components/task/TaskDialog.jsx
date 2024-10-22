@@ -21,15 +21,15 @@ const TaskDialog = ({ task }) => {
   const [deleteTask] = useTrashTaskMutation();
   const [duplicateTask] = useDuplicateTaskMutation();
 
-  const duplicateHandler = async() => {
+  const duplicateHandler = async () => {
     try {
-      const res = await duplicateTask(task._id).unwrap();
+      const res = await duplicateTask({ id: task._id }).unwrap();  
       toast.success(res?.message);
       setTimeout(() => {
         setOpenDialog(false);
         window.location.reload();
       }, 500);
-    } catch(err) {
+    } catch (err) {
       console.log(err);
       toast.error(err?.data?.message || err.error);
     }
