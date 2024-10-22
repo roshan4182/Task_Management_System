@@ -1,4 +1,6 @@
 # Fullstack Task Manager (MERN)
+<img width="1440" alt="Screenshot 2024-10-22 at 1 55 09 PM" src="https://github.com/user-attachments/assets/4f7b2bcf-6cc3-4b23-91e2-74cc2708a5f0">
+
 
 ## Overview
 The **Cloud-Based Task Manager** is a web application designed to streamline task management and team collaboration. Built with the **MERN stack** (MongoDB, Express.js, React, and Node.js), it offers an intuitive interface for efficient task assignment, tracking, and collaboration, catering to both administrators and regular users.
