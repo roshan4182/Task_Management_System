@@ -25,12 +25,11 @@ export const taskApiSlice  = apiSlice.injectEndpoints({
                 credentials: "include",
             }),
         }),
-        duplicateTask: builder.mutation({
-            query: (id) => ({
-                url: `${TASK_URL}/${id}`,
-                method: "POST",
-                body: {},
-                credentials: "include",
+         duplicateTask: builder.mutation({
+            query: ({ id }) => ({
+              url: `${TASK_URL}/duplicate/${id}`,  // The correct URL path that matches the backend route
+              method: "POST",
+              credentials: "include",
             }),
         }),
         updateTask: builder.mutation({
